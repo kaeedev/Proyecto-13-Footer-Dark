@@ -1,8 +1,8 @@
 ## ESP:
 
-# Proyecto 12 - Footer Dark (Responsive)
+# Proyecto 13 - Footer Dark (Responsive)
 
-Maquetación de un ejemplar de footer en HTML, CSS, Astro y Tailwind
+Maquetación de un ejemplar de footer en modo oscuro en HTML, CSS, Astro y Tailwind
 
 ## 🎯 Objetivo del Proyecto
 
@@ -45,9 +45,9 @@ Si tienes alguna duda o quieres utilizar algún recurso de este proyecto, por fa
 
 ## ENG:
 
-# Project 12 - Footers Lights (Responsive)
+# Project 13 - Footer Dark (Responsive)
 
-Layout of a online forum made with HTML, CSS, Astro, and Tailwind
+Layout of one example of footer in dark mode using HTML, CSS, Astro, and Tailwind
 
 ## 🎯 Project Objective
 
