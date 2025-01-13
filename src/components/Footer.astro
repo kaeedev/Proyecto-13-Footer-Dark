@@ -1,0 +1,97 @@
+---
+import Logo from '../components/Logo.astro'
+---
+
+
+<footer class="m-5 font-poppins xl:m-20 xl:p-20 md:mb-60 mb-40 xl:mb-30 bg-black text-white">
+
+
+    <section class="bg-black text-white xl:mb-10 m-4 xl:m-0">
+        <div class="flex flex-col items-center mb-5 xl:hidden">
+            <Logo/>
+            <h2 class="font-bold text-principal text-[40px] md:text-[80px] xl:text-[27px]">Maxwell</h2>
+            <p class="text-center text-text md:text-[40px] xl:text-[20px] xl:text-start xl:whitespace-nowrap">We growing up your business to the international scale</p>
+        </div>
+
+        <div class=" xl:flex xl:flex-row xl:items-center xl:justify-between md:flex md:flex-col md:items-center">
+
+          <div class="xl:max-w-[500px] md:p-4 md:m-5 mb-5 xl:m-0 xl:p-0">
+            <h2 class=" font-bold xl:text-[40px] md:text-[35px] md:text-center xl:text-start text-center">Join our newsletter to keep up to date with us!</h2>
+          </div>
+      
+          
+          <form class="flex items-center justify-evenly gap-2 md:mb-10">
+           
+            <div class="relative xl:w-80">
+
+              <span class="absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-400">
+                <img class="md:w-[30px]" src="/Proyecto-13-Footer-Dark/assets/user.svg">
+              </span>
+              
+              <input 
+                type="email" 
+                placeholder="Enter your email" 
+                class="md:w-[600px] xl:w-[320px] w-[200px] pl-10 pr-4 py-2 rounded-full border border-gray-500 bg-transparent text-white focus:ring-2 focus:ring-green-400 focus:outline-none md:text-[30px] xl:text-[16px] text-[14px]"
+              />
+            </div>
+      
+            <button type="submit" class="md:px-6 md:py-4 px-4 py-4 xl:px-3 rounded-full bg-background text-black font-bold hover:bg-green-500 md:text-[25px] text-[14px] xl:text-[18px] transition-colors duration-300">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      
+      </section>
+
+
+
+    <hr class="border-t-2 border-background mb-10 md:hidden hidden xl:flex ">
+    
+    <section class="mb-5 xl:flex xl:flex-row xl:justify-between xl:mb-10">
+        <div class="xl:flex xl:flex-col mb-5 xl:items-start md:hidden hidden">
+            <Logo/>
+            <h2 class="font-bold text-principal text-[40px] md:text-[80px] xl:text-[27px]">Maxwell</h2>
+            <p class="text-center text-text md:text-[30px] xl:text-[20px] xl:text-start xl:whitespace-nowrap">We growing up your business to the international scale</p>
+        </div>
+
+        <hr class="border-t-2 border-background mb-5 md:mb-20 xl:hidden ">
+
+        <nav class="space-y-10 md:space-y-14 xl:flex xl:flex-row xl:items-start xl:justify-around xl:space-y-0 xl:space-x-20">
+            <ul class="flex flex-col items-center space-y-2 md:space-y-6 xl:items-start xl:space-y-2">
+                <li><h3 class=" text-principal text-[20px] md:text-[40px] xl:text-[20px]">Platform</h3></li>
+                <li class="xl:hover:animate-squeeze"><a class="text-text md:text-[30px] xl:text-[18px]" href="#">Plans & Pricing</a></li>
+                <li class="xl:hover:animate-squeeze"><a class="text-text md:text-[30px] xl:text-[18px]" href="#">Personal AI Manager</a></li>
+                <li class="xl:hover:animate-squeeze"><a class="text-text md:text-[30px] xl:text-[18px]" href="#">AI Business Writer</a></li>
+            </ul>
+ 
+            <ul class="flex flex-col items-center space-y-2 md:space-y-6 xl:items-start xl:space-y-2 xl:whitespace-nowrap ">
+                <li><h3 class=" text-principal text-[20px] md:text-[40px] xl:text-[20px]">Company</h3></li>
+                <li class="xl:hover:animate-squeeze"><a class="text-text md:text-[30px] xl:text-[18px]" href="#">Blog</a></li>
+                <li class="xl:hover:animate-squeeze"><a class="text-text md:text-[30px] xl:text-[18px]" href="#">Careers</a></li>
+                <li class="xl:hover:animate-squeeze"><a class="text-text md:text-[30px] xl:text-[18px]" href="#">News</a></li>
+            </ul>
+
+            <ul class="flex flex-col items-center space-y-2 md:space-y-6 xl:items-start xl:space-y-2 xl:whitespace-nowrap">
+                <li><h3 class=" text-principal text-[20px] md:text-[40px] xl:text-[20px]">Resources</h3></li>
+                <li class="xl:hover:animate-squeeze"><a class="text-text md:text-[30px] xl:text-[18px]" href="#">Documentation</a></li>
+                <li class="xl:hover:animate-squeeze"><a class="text-text md:text-[30px] xl:text-[18px]" href="#">Papers</a></li>
+                <li class="xl:hover:animate-squeeze"><a class="text-text md:text-[30px] xl:text-[18px]" href="#">Press Conferences</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <hr class="border-t-2 border-background mb-10 md:mt-20 ">
+
+    <section class="flex flex-col xl:flex xl:flex-row xl:justify-between xl:items-center">
+        <div class="mb-10 md:mb-12">
+            <p class="text-center text-text md:text-[30px] xl:text-[16px]">©️ 2023 Maxwell Inc. All rights reserved.</p>
+        </div>
+
+        <div class="flex flex-row items-center justify-evenly mb-5 md:mb-10 xl:space-x-7">
+            <a class="xl:hover:animate-squeeze md:text-[25px] text-[14px] xl:text-[18px]" href="">Terms of Service</a>
+            <a class="xl:hover:animate-squeeze md:text-[25px] text-[14px] xl:text-[18px]" href="">Privacy Policy</a>
+            <a class="xl:hover:animate-squeeze md:text-[25px] text-[14px] xl:text-[18px]" href="">Cookies</a>
+        </div>
+    </section>
+
+</footer>
